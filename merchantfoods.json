@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Warung Sate Pondok",
+    "address": "Jl. Metro Pondok Indah No. 10, Jakarta Selatan",
+    "description": "Warung sate khas Madura dengan bumbu kacang gurih.",
+    "imageUrl": "https://example.com/images/warung-sate-pondok.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bakmi Enak PIM",
+    "address": "Pondok Indah Mall 2, Lt. 3, Jakarta Selatan",
+    "description": "Bakmi ayam spesial dengan topping melimpah.",
+    "imageUrl": "https://example.com/images/bakmi-enak-pim.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Kopi Arteri",
+    "address": "Jl. Arteri Pondok Indah No. 25, Jakarta Selatan",
+    "description": "Cafe kekinian dengan berbagai varian kopi lokal.",
+    "imageUrl": "https://example.com/images/kopi-arteri.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Nasi Padang Metro",
+    "address": "Jl. Metro Pondok Indah No. 45, Jakarta Selatan",
+    "description": "Nasi Padang asli Minang dengan pilihan lauk lengkap.",
+    "imageUrl": "https://example.com/images/nasi-padang-metro.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Es Teler Fresh",
+    "address": "Pondok Indah Mall 1, Lt. Foodcourt, Jakarta Selatan",
+    "description": "Es teler segar dengan buah pilihan.",
+    "imageUrl": "https://example.com/images/es-teler-fresh.jpg"
+  }
+]

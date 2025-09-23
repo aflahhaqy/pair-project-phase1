@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Teh Botol Sosro",
+    "price": 7000,
+    "description": "Teh melati khas Indonesia dalam botol.",
+    "imageUrl": "https://example.com/images/teh-botol.jpg",
+    "stock": 100,
+    "MerchantFoodId": 1
+  },
+  {
+    "id": 2,
+    "name": "Es Jeruk Segar",
+    "price": 10000,
+    "description": "Jeruk peras asli tanpa pemanis buatan.",
+    "imageUrl": "https://example.com/images/es-jeruk.jpg",
+    "stock": 50,
+    "MerchantFoodId": 1
+  },
+  {
+    "id": 3,
+    "name": "Es Teh Manis",
+    "price": 6000,
+    "description": "Teh hitam manis dengan es batu segar.",
+    "imageUrl": "https://example.com/images/es-teh-manis.jpg",
+    "stock": 120,
+    "MerchantFoodId": 2
+  },
+  {
+    "id": 4,
+    "name": "Es Kopi Susu Gula Aren",
+    "price": 22000,
+    "description": "Kopi susu creamy dengan gula aren khas nusantara.",
+    "imageUrl": "https://example.com/images/es-kopi-susu.jpg",
+    "stock": 70,
+    "MerchantFoodId": 3
+  },
+  {
+    "id": 5,
+    "name": "Cappuccino",
+    "price": 25000,
+    "description": "Cappuccino dengan taburan bubuk cokelat.",
+    "imageUrl": "https://example.com/images/cappuccino.jpg",
+    "stock": 40,
+    "MerchantFoodId": 3
+  },
+  {
+    "id": 6,
+    "name": "Teh Talua",
+    "price": 15000,
+    "description": "Teh khas Minang dicampur kuning telur dan madu.",
+    "imageUrl": "https://example.com/images/teh-talua.jpg",
+    "stock": 30,
+    "MerchantFoodId": 4
+  },
+  {
+    "id": 7,
+    "name": "Air Mineral",
+    "price": 5000,
+    "description": "Air mineral botol 600ml.",
+    "imageUrl": "https://example.com/images/air-mineral.jpg",
+    "stock": 200,
+    "MerchantFoodId": 4
+  },
+  {
+    "id": 8,
+    "name": "Es Teler Spesial",
+    "price": 18000,
+    "description": "Campuran alpukat, nangka, kelapa muda, dan susu kental manis.",
+    "imageUrl": "https://example.com/images/es-teler.jpg",
+    "stock": 60,
+    "MerchantFoodId": 5
+  },
+  {
+    "id": 9,
+    "name": "Jus Alpukat",
+    "price": 20000,
+    "description": "Jus alpukat kental dengan topping cokelat.",
+    "imageUrl": "https://example.com/images/jus-alpukat.jpg",
+    "stock": 50,
+    "MerchantFoodId": 5
+  }
+]
