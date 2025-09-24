@@ -11,14 +11,14 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      MerchantFood.hasMany(models.Beverage, {foreignKey: 'MerchantFoodId'})
     }
   }
   MerchantFood.init({
     name: DataTypes.STRING,
     address: DataTypes.STRING,
     description: DataTypes.STRING,
-    imageUrl: DataTypes.STRING
+    imageUrl: DataTypes.STRING,
+    UserMerchantId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'MerchantFood',

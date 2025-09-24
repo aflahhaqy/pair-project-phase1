@@ -2,35 +2,20 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('services', {
+    await queryInterface.createTable('Users', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      UserId: {
-        type: Sequelize.INTEGER,
-        references: {
-        model: 'Users',
-        key: 'id'
-      },
-      onUpdate: 'cascade',
-      onDelete: 'cascade'
-      },
-      MerchantFoodId: {
-        type: Sequelize.INTEGER,
-        references: {
-        model: 'MerchantFoods',
-        key: 'id'
-      },
-      onUpdate: 'cascade',
-      onDelete: 'cascade'
-      },
-      description: {
+      email: {
         type: Sequelize.STRING
       },
-      name: {
+      password: {
+        type: Sequelize.STRING
+      },
+      role: {
         type: Sequelize.STRING
       },
       createdAt: {
@@ -44,6 +29,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('services');
+    await queryInterface.dropTable('Users');
   }
 };

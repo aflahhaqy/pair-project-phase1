@@ -13,7 +13,7 @@ module.exports = {
      * }], {});
     */
    let data = JSON.parse(await fs.readFile('./beverages.json','utf8')).map(el =>{
-      delete el.readFile
+      delete el.id
       el.createdAt = el.updatedAt = new Date()
       return el
     })
