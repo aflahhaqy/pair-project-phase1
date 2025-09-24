@@ -11,6 +11,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Service.belongsTo(models.UserProfile,{foreignKey:'UserProfileId'})
+      Service.belongsTo(models.MerchantFood,{foreignKey: 'MerchantFoodId'})
     }
   }
   Service.init({

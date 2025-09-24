@@ -9,10 +9,10 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      UserId: {
+      UserProfileId: {
         type: Sequelize.INTEGER,
         references: {
-        model: 'Users',
+        model: 'UserProfiles',
         key: 'id'
       },
       onUpdate: 'cascade',

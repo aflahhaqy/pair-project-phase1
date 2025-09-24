@@ -15,10 +15,10 @@ module.exports = {
       description: {
         type: Sequelize.STRING
       },
-      UserId: {
+      UserProfileId: {
         type: Sequelize.INTEGER,
         references: {
-        model: 'Users',
+        model: 'UserProfiles',
         key: 'id'
       },
       onUpdate: 'cascade',
