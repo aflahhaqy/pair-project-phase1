@@ -11,5 +11,33 @@ class Controller{
             res.send(error)
         }
     }
+    static async getRegister(req, res) {
+        try {
+            res.render('register')
+        } catch (error) {
+            res.send(error)
+        }
+    }
+    static async postRegister(req, res) {
+        try {
+            res.render('register')
+        } catch (error) {
+            res.send(error)
+        }
+    }
+    static async getLogin(req, res) {
+        try {
+            res.render('login')
+        } catch (error) {
+            res.send(error)
+        }
+    }
+    static async postLogin(req, res) {
+        try {
+            res.render('login')
+        } catch (error) {
+            res.send(error)
+        }
+    }
 }
 module.exports = Controller

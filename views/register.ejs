@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partial/_head') -%>
+<body style="font-family: Arial, sans-serif; background:#f3f4f6; display:flex; justify-content:center; align-items:center; height:100vh; margin:0;">
+
+  <div style="background:#fff; padding:2rem 2.5rem; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); width:420px;">
+    <h1 style="text-align:center; margin-bottom:1.5rem; color:#333;">Register</h1>
+
+    <div style="text-align:center; margin-bottom:1.5rem; font-size:0.9rem; color:#666;">
+      Daftar dulu yaa
+    </div>
+
+    <form action="/register" method="post" >
+
+      <div style="margin-bottom:1rem;">
+        <label for="nama" style="display:block; font-weight:bold; margin-bottom:0.5rem; color:#555;">Nama</label>
+        <input type="text" name="nama" id="nama" required 
+          style="width:100%; padding:0.6rem; border:1px solid #ccc; border-radius:8px; outline:none;">
+      </div>
+
+      <div style="margin-bottom:1rem;">
+        <label for="username" style="display:block; font-weight:bold; margin-bottom:0.5rem; color:#555;">Username</label>
+        <input type="text" name="username" id="username" required 
+          style="width:100%; padding:0.6rem; border:1px solid #ccc; border-radius:8px; outline:none;">
+      </div>
+
+      <div style="margin-bottom:1rem;">
+        <label for="password" style="display:block; font-weight:bold; margin-bottom:0.5rem; color:#555;">Password</label>
+        <input type="password" name="password" id="password" required 
+          style="width:100%; padding:0.6rem; border:1px solid #ccc; border-radius:8px; outline:none;">
+      </div>
+
+      <div style="margin-bottom:1.5rem;">
+        <label for="role" style="display:block; font-weight:bold; margin-bottom:0.5rem; color:#555;">Role</label>
+        <select name="role" id="role" 
+          style="width:100%; padding:0.6rem; border:1px solid #ccc; border-radius:8px; outline:none; background:#fff; cursor:pointer;">
+          <option value="" selected disabled>-- PILIH ROLE --</option>
+          <option value="Customer">Customer</option>
+          <option value="Seller">Seller</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom:0.5rem;">
+        <input type="submit" value="Register" 
+          style="width:100%; padding:0.8rem; background:#2563eb; color:white; border:none; border-radius:8px; font-weight:bold; cursor:pointer;">
+      </div>
+
+      <div style="text-align:center; font-size:0.9rem; color:#555; margin-top:0.5rem;">
+        Sudah punya akun?
+        <a href="/login" style="color:#2563eb; text-decoration:none; font-weight:bold;">Login</a>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>
